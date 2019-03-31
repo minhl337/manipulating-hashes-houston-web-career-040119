@@ -15,7 +15,20 @@ def first_challenge
 
   #your code here
 
-
+  contacts.each do |name,details|
+    
+    if name=="Freddy Mercury"
+      
+      details.each do |tag, info|
+        
+        if tag===:favorite_icecream_flavors
+          tag.
+        
+      end
+      
+    end
+    
+  end
   
 
 
