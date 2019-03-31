@@ -22,9 +22,7 @@ def first_challenge
       details.each do |tag, info|
         
         if tag===:favorite_icecream_flavors
-          tag.each do |x|
-            puts x
-          end
+          info.delete_if {|x| x=="strawberry"}
         end
         
       end
